@@ -1,0 +1,129 @@
+body {
+  padding-top: 40px;
+  background: url("https://res.cloudinary.com/cremz/image/upload/c_scale,q_100,w_993/v1512678598/texture2_slp1as.png")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+li {
+  list-style-type: none;
+  font-family: "Courgette";
+  color: white;
+  text-align: center;
+  margin-left: -10px;
+  margin-right: -10px;
+}
+.navbar-brand {
+  font-family: "Kaushan Script";
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  float: inherit;
+}
+.spacer {
+  padding: 5%;
+}
+section {
+  padding-top: 40px;
+  margin-top: -40px;
+}
+#welcome-section {
+  
+}
+.block {
+  background-color: rgb(0, 153, 0); /* The Fallback */
+  background-color: rgba(0, 153, 0, 0.75);
+  color: #f7f9f9;
+  padding: 3%;
+  width: 75%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 15px;
+  font-family: "Special Elite";
+  text-shadow: 1px 2px black;
+  font-size: 1.5em;
+}
+.row {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.card-text {
+  font-family: "Special Elite";
+  text-align: center;
+  color: #f7f9f9;
+  text-shadow: 1px 2px black;
+}
+.card-title {
+  font-family: "Special Elite";
+  text-align: center;
+  color: #f7f9f9;
+  text-shadow: 1px 2px black;
+  font-weight: bold;
+}
+.project, .project-tile {
+  border: 8px ridge black;
+  background-color: black;
+}
+span,
+footer {
+  font-family: "Special Elite";
+  color: #f7f9f9;
+  text-shadow: 1px 2px black;
+  font-weight: bold;
+  text-align: center;
+}
+.fa-pencil-square-o,
+.fa-linkedin-square,
+.fa-facebook-square,
+.fa-github-square {
+  color: #f7f9f9;
+  margin-right: 5px;
+}
+.pen,
+p {
+  text-align: center;
+}
+img {
+  opacity: 1 !important;
+  display: block;
+  margin: auto;
+  border-radius: 8px;
+}
+.social {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+.block2 {
+  background-color: rgb(0, 153, 0); /* The Fallback */
+  background-color: rgba(0, 153, 0, 0.75);
+  color: #f7f9f9;
+  padding: 3%;
+  width: 37.5%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 15px;
+  font-family: "Special Elite";
+  text-shadow: 1px 2px black;
+  font-size: 1.5em;
+}
+@media only screen and (max-width: 500px) {
+  body {
+    padding-top: 90px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 100%;
+  }
+  section {
+    padding-top: 90px;
+    margin-top: -90px;
+  }
+  .block,
+  .block2 {
+    width: 93%;
+    font-size: 1.2em;
+  }
+}

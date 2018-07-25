@@ -1,0 +1,393 @@
+/* Styles common to all pages except homepage. */
+
+html {
+  height: 100%;
+}
+
+body {
+  background: linear-gradient(rgba(0, 153, 0, 0.3), rgba(0, 153, 0, 0.3)),
+    url("https://res.cloudinary.com/cremz/image/upload/c_scale,h_800,q_100,w_1000/v1526394565/metal.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-origin: content-box;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.pagePhoto {
+  padding: 0;
+  margin: 0;
+  opacity: 0.6;
+  width: 100%;
+}
+
+.intro {
+  background: linear-gradient(rgba(0, 153, 0, 1), rgba(0, 153, 0, 1));
+}
+
+.pageName {
+  position: absolute;
+  z-index: 1;
+  font-family: "New Rocker", cursive;
+  letter-spacing: 3px;
+  color: rgba(245, 245, 245, 1) !important;
+  top: 40%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -40%);
+  transform: translate(-50%, -40%);
+}
+
+.nav-item {
+  background: rgba(243, 242, 242, 0.8);
+  border-radius: 5px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 2px;
+}
+
+.nav-link,
+.slogan,
+.codes,
+.contactDivo .fab {
+  background: url("https://res.cloudinary.com/cremz/image/upload/v1512678598/texture2_slp1as.png")
+    center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.nav-link:hover,
+.slogan:hover {
+  background: url("https://res.cloudinary.com/cremz/image/upload/v1512678598/texture2_slp1as.png")
+    center;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  transform: skew(-20deg) scale(1.1);
+  -webkit-transform: skew(-20deg) scale(1.1);
+}
+
+.active {
+  background: rgba(204, 255, 230, 0.7) !important;
+}
+
+.info {
+  background: rgba(243, 242, 242, 0.8);
+  font-family: "New Rocker", cursive;
+  display: block;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.info1 {
+  width: 80%;
+}
+
+.description {
+  padding: 20px;
+  font-family: "Roboto", sans-serif;
+  color: #1a3a01;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+footer {
+  background: rgb(0, 26, 0);
+  padding: 20px;
+}
+
+footer p {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+}
+
+footer a {
+  color: rgb(0, 153, 0);
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+footer a:hover {
+  color: rgb(0, 255, 0);
+  text-decoration: none;
+}
+
+/* End of common styles. */
+
+/* Styles for About page. Includes cards styles used also on Portfolio page. */
+
+.aboutMe {
+  height: 400px;
+  width: 90%;
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  padding: 30px;
+}
+
+.idea {
+  font-family: "New Rocker", cursive;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.idea2 {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+}
+
+.skills h1,
+.certificates h1 {
+  font-family: "New Rocker", cursive;
+  letter-spacing: 3px;
+}
+
+.card {
+  background: linear-gradient(rgba(0, 153, 0, 0.55), rgba(0, 153, 0, 0.5)),
+    url("https://res.cloudinary.com/cremz/image/upload/v1525183170/sand_texture_small.jpg");
+  border: 1px solid #555;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.6);
+  -o-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.6);
+}
+
+.card-body {
+  font-family: "Lato", sans-serif;
+  color: #f0ffff;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-img-top {
+  background: rgb(255, 255, 255);
+  border-bottom: 1px solid black;
+}
+
+.card-text {
+  letter-spacing: 1px;
+}
+
+.card-body a {
+  background: rgba(0, 153, 0, 0.5);
+  color: black;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+}
+
+.card-body a:hover {
+  background: rgba(0, 153, 0, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.fa-7x {
+  font-size: 30px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  border-bottom: 1px solid black;
+}
+
+.fa-html5 {
+  color: #e34c26;
+}
+
+.fa-css3-alt {
+  color: #264de4;
+}
+
+.fa-js-square {
+  color: #f6ea21;
+}
+
+.fa-python {
+  color: #4584b6;
+}
+
+.fa-git {
+  color: #000000;
+}
+
+.fa-linux {
+  color: #020204;
+}
+
+.certificates img {
+  display: block;
+  margin: auto;
+}
+
+.certificates a,
+.certificates a:hover {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-size: 16px !important;
+}
+
+/* Styles for Portfolio page. */
+
+.menu,
+.projnav {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: space-around;
+}
+
+.nav-item1 {
+  padding: 10px;
+  background: none !important;
+}
+
+.nav-link1 {
+  color: rgba(245, 245, 245, 0.9);
+  font-family: "New Rocker", cursive;
+  font-size: 28px;
+}
+
+.nav-link1:hover {
+  color: rgba(245, 245, 245, 1);
+  text-decoration: none;
+  transform: skew(-10deg);
+  -webkit-transform: skew(-10deg);
+}
+
+.projectType {
+  font-family: "New Rocker", cursive;
+}
+
+/* Styles for Contact page. */
+
+.contactDivo * {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+
+.contactDivo .fab:hover {
+  -ms-transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0, 0); /* IE 9 */
+  -webkit-transform: perspective(1000px) rotate(-30deg) skew(25deg)
+    translate(0, 0); /* Safari */
+  transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0, 0);
+  border: none;
+}
+
+.contactDivo a,
+.contactDivo a:hover {
+  color: rgb(0, 102, 0);
+}
+
+.socials {
+  text-align: center;
+}
+
+.picme {
+  display: block;
+  margin: auto;
+  -webkit-clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    65% 80%,
+    48% 100%,
+    41% 82%,
+    0% 75%
+  );
+  clip-path: polygon(
+    0% 0%,
+    100% 0%,
+    100% 75%,
+    65% 80%,
+    48% 100%,
+    41% 82%,
+    0% 75%
+  );
+}
+
+/* Mobile and tablets. Styles common to all pages except homepage. */
+
+@media only screen and (max-width: 768px) {
+  .pageName {
+    font-size: 20px !important;
+    position: absolute;
+    top: 10% !important;
+    left: 50% !important;
+    -webkit-transform: translate(-50%, -10%);
+    transform: translate(-50%, -10%);
+    z-index: 1;
+  }
+
+  .nav {
+    display: flex;
+    flex: 1;
+  }
+
+  .row1,
+  .row2 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    font-size: 12px !important;
+  }
+
+  .description {
+    letter-spacing: 1px;
+    font-size: 10px;
+  }
+
+  .slogan {
+    font-size: 25px !important;
+    padding: 5px;
+  }
+
+  /* Styles for About page. */
+
+  .aboutMe {
+    height: 500px;
+    -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  }
+
+  .idea {
+    font-size: 20px;
+  }
+
+  /* Styles for Portfolio page page. */
+
+  .projectType {
+    font-size: 30px !important;
+  }
+
+  .nav-link1 {
+    font-size: 12px;
+  }
+
+  .nav-item1 {
+    padding: 5px;
+  }
+
+  /* Styles for Contact page. */
+  .picme {
+    width: 50%;
+    height: 50%;
+  }
+
+  .contactDivo .fab {
+    font-size: 35px;
+  }
+
+  .contactDivo * {
+    font-size: 18px;
+  }
+}

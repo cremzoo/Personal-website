@@ -219,7 +219,7 @@ td {
 
 .pdfFile {
   width: 500px !important;
-  height: 600px;
+  height: 600px !important;
   display: block;
   margin: auto;
 }

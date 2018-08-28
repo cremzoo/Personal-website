@@ -1,112 +1,102 @@
-html {
+/*
+* {
+  background: #000 !important;
+  color: #0f0 !important;
+  outline: solid #f00 1px !important;
+}
+*/
+
+html,
+body {
   height: 100%;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
-body {
+.hero {
   background: linear-gradient(rgba(0, 153, 0, 0.4), rgba(0, 153, 0, 0.4)),
     url("https://res.cloudinary.com/cremz/image/upload/q_100/v1530698572/Portfolio/lamp.jpg");
-  width: 100%;
-  max-height: 100%;
-  margin: 0;
-  padding: 0;
   background-size: 100% 100%;
   -webkit-background-size: 100% 100%;
   -moz-background-size: 100% 100%;
   -o-background-size: 100% 100%;
-  /*background-repeat: 100% 100%;*/
   background-repeat: no-repeat;
   background-attachment: fixed;
-}
-
-header {
   font-family: "New Rocker", cursive;
   letter-spacing: 3px;
+  padding-top: 60px;
+  padding-bottom: 100px;
 }
 
-.pres {
-  color: white;
+.is-divider {
+  height: 3px !important;
+  margin: 10px !important;
 }
 
-.bg {
-  background: rgba(243, 242, 242, 0.8);
-  width: 50%;
-  display: block;
-  margin: auto;
+.presentation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.slogan {
+  padding: 5px;
+  margin: 10px;
   border-radius: 5px;
+  background: rgba(243, 242, 242, 0.8);
 }
 
-.slogan,
-.nav-link {
-  padding: 10px;
+.knockoutText,
+.knockoutText:hover {
   background: url("https://res.cloudinary.com/cremz/image/upload/v1512678598/texture2_slp1as.png")
     center;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  text-decoration: none;
 }
 
-.slogan:hover,
-.nav-link:hover {
+.knockoutText:hover {
   transform: skew(-20deg) scale(1.1);
   -webkit-transform: skew(-20deg) scale(1.1);
-  background: url("https://res.cloudinary.com/cremz/image/upload/v1512678598/texture2_slp1as.png")
-    center;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
 }
 
-h3 {
-  font-size: 18px !important;
-}
-
-hr {
-  background: white;
-  width: 50%;
-  height: 3px !important;
-}
-
-.nav-item {
-  background: rgba(243, 242, 242, 0.8);
+.navigTab {
+  margin: 10px;
+  padding: 5px !important;
   border-radius: 5px;
+  background: rgba(243, 242, 242, 0.8);
+}
+
+.navig {
+  padding: 0 20%;
   font-family: "Roboto", sans-serif;
-  font-weight: 800;
-  font-size: 14px;
 }
 
 footer {
   color: rgb(0, 26, 0);
-  display: block;
   font-family: "Roboto", sans-serif;
-  font-size: 14px !important;
 }
 
-@media only screen and (max-width: 768px) {
-  h1 {
-    font-size: 32px !important;
+@media only screen and (max-width: 500px) {
+  .hero {
+    background: linear-gradient(rgba(0, 153, 0, 0.4), rgba(0, 153, 0, 0.4)),
+      url("https://res.cloudinary.com/cremz/image/upload/q_100/a_90/v1530698572/Portfolio/lamp.jpg");
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "New Rocker", cursive;
+    letter-spacing: 3px;
+    padding-top: 60px;
+    padding-bottom: 70px;
   }
 
-  h3 {
-    font-size: 18px !important;
+  .slogan {
+    margin: 20px;
   }
-
-  .bg,
-  hr {
-    width: 90%;
-  }
-
-  .nav {
-    display: flex;
-    flex: 1;
-  }
-
-  .row1,
-  .row2 {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 5px;
-    font-size: 12px !important;
-  }
+  
 }

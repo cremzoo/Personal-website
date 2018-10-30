@@ -145,6 +145,10 @@ body {
 .card {
   background: linear-gradient(rgba(0, 153, 0, 0.55), rgba(0, 153, 0, 0.5)),
     url("https://res.cloudinary.com/cremz/image/upload/v1525183170/sand_texture_small.jpg");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; 
   border: 1px solid #555;
   box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.6) !important;
   -moz-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.6) !important;
